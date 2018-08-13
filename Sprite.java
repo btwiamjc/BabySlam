@@ -63,6 +63,6 @@ public class Sprite {
 	}
 	
 	public Rectangle getBounds() {
-		return new Rectangle(x, y, 54, 54);
+		return new Rectangle(x, y, 40, 30);
 	}
 }

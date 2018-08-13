@@ -250,7 +250,11 @@ public class BattleField extends JPanel implements ActionListener{
         else {
         	baby2.setX(0);
         	baby2.setY(0);
-        	baby2.setVisible(false);
+			baby2.setVisible(false);
+			
+			if(Client.players == 2) {
+				assignBaby();
+			}
         }
         
         //handle bounce for player 1 and 2
